@@ -105,12 +105,10 @@
         <div class="skill-card">
           <img src="./assets/html (2).png" class="skill-icon" alt="HTML" />
           <h4>HTML</h4>
-          <div class="level-label">95%</div>
         </div>
         <div class="skill-card">
           <img src="./assets/css.png" class="skill-icon" alt="CSS" />
           <h4>CSS</h4>
-          <div class="level-label">92%</div>
         </div>
         <div class="skill-card">
           <img
@@ -119,8 +117,6 @@
             alt="JavaScript"
           />
           <h4>JavaScript</h4>
-          <div class="level-label">80%</div>
-        </div>
         <div class="skill-card">
           <img
             src="./assets/bootstrap.png"
@@ -128,12 +124,30 @@
             alt="Bootstrap"
           />
           <h4>Bootstrap</h4>
-          <div class="level-label">90%</div>
         </div>
         <div class="skill-card">
           <img src="./assets/react.png" class="skill-icon" alt="React" />
           <h4>React</h4>
           <div class="level-label">78%</div>
+        </div>
+        <div class="skill-card">
+          <img src="./assets/mongodb.png" class="skill-icon" alt="MongoDB" />
+          <h4>MongoDB</h4>
+        </div>
+        <div class="skill-card">
+          <img
+            src="./assets/expressjs.png"
+            class="skill-icon"
+            alt="Express.js" />
+          <h4>Express.js</h4>
+        </div>
+        <div class="skill-card">
+          <img src="./assets/nodejs.png" class="skill-icon" alt="Node.js" />
+          <h4>Node.js</h4>
+        </div>
+        <div class="skill-card">
+          <img src="./assets/git.png" class="skill-icon" alt="git" />
+          <h4>Git</h4>
         </div>
       </div>
 
@@ -212,7 +226,7 @@
 
     <script src="https://unpkg.com/scrollreveal"></script>
     <script>
-      // ScrollReveal Animations
+      
       ScrollReveal().reveal(".hero-left", {
         origin: "left",
         distance: "50px",
@@ -244,7 +258,7 @@
         delay: 300,
       });
 
-      // WhatsApp Redirection on Contact Form Submit
+      
       document
         .getElementById("whatsapp-form")
         .addEventListener("submit", function (e) {
@@ -262,7 +276,7 @@
           const fullMessage = `Hello, my name is ${name}. My email is ${email}. Message: ${message}`;
           const encodedMessage = encodeURIComponent(fullMessage);
 
-          const phoneNumber = "917371884429"; // Replace with your WhatsApp number
+          const phoneNumber = "917371884429"; 
 
           window.open(
             `https://wa.me/${phoneNumber}?text=${encodedMessage}`,
